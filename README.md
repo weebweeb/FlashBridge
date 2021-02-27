@@ -32,5 +32,6 @@ This program is for personal use only. Although downloading the video files is t
 # Dependancies
 <p>Node.js</p>
 <p>Express</p>
+<p>Pug</p>
 <p><a href ="https://github.com/fent/node-ytdl-core">node-ytdl-core</a></p>
 

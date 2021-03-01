@@ -35,7 +35,7 @@ Right now, these videos are saved to the local device, in the main folder. This 
 
 `express FlashBridge --view="pug"`
 
-4. Then, unzip the downloaded repository into the directory of your Express app.
+4. Then, unzip the downloaded repository into the directory of your Express app, overwriting filenames and folders when needed.
 
 5. Run as a standard Node app.
 

@@ -23,6 +23,24 @@ We can search for Youtube videos by submitting a Video ID to `request`, under th
 Right now, these videos are saved to the local device, in the main folder. This will be changed.
 
 
+
+
+# Installation
+
+1. Install the dependancies needed
+
+2. Download the repository ZIP archive
+
+3. Create a new Express app with Pug as the view engine:
+
+`express FlashBridge --view="pug"`
+
+4. Then, unzip the downloaded repository into the directory of your Express app.
+
+5. Run as a standard Node app.
+
+
+
 # Disclaimer
 This program is for personal use only. Although downloading the video files is the only known way for Flash applications to retrieve youtube videos, downloading copyrighted material without permission is against YouTube's terms of services. By using this program, you are solely responsible for any copyright violations. We are not responsible for people who attempt to use this program in any way that breaks YouTube's terms of services.
 

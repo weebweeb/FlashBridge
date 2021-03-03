@@ -1,14 +1,12 @@
 var express = require('express');
 var router = express.Router();
 var app = express()
+var path = require('path')
 const fs = require('fs');
 const ytdl = require('ytdl-core');
 
 router.get('/', function (req, res, next) { // GET 'http://www.example.com/admin/new?sort=desc'
-  res.render('request', { title: 'FlashBridge' });
- console.dir(req.originalUrl) // '/admin/new?sort=desc'
-  console.dir(req.baseUrl) // '/admin'
-  console.dir(req.path) // '/new'
+
  var lurl = "localhost"
  var newurl = lurl+req.originalUrl
   
@@ -37,9 +35,19 @@ var parms = parseURLParams(newurl)
 // TypeScript: import * as ytdl from 'ytdl-core'; with --allowSyntheticDefaultImports
 // TypeScript: import ytdl = require('ytdl-core'); with neither of the above
 
-ytdl("https://www.youtube.com/watch?v="+parms.vidurl)
-  .pipe(fs.createWriteStream(parms.vidurl+'.mp4'));
+async function processproperly(){
+
+var file = fs.createWriteStream("data/"+parms.vidurl+'.mp4')
+
+await ytdl("https://www.youtube.com/watch?v="+parms.vidurl)
+  .pipe(file);
   
+ 
+ res.sendFile(path.join(__dirname, '../data', parms.vidurl+'.mp4'))
+ 
+res.render('request', { title: 'FlashBridge', filee:"data/"+parms.vidurl+'.mp4' });
+}
+processproperly()
   next()
 })
 

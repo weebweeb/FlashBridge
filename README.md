@@ -42,7 +42,7 @@ Right now, these videos are saved to the local device, in the folder this progra
 
 
 # Disclaimer
-This program is for personal and educational purposes only. Although downloading the video files is the only known way for Flash applications to retrieve youtube videos, downloading copyrighted material without permission is against YouTube's terms of services. By using this program, you are solely responsible for any copyright violations. We are not responsible for people who attempt to use this program in any way that breaks YouTube's terms of services.
+This program is for personal and educational purposes only. Although downloading the video files is the only known way for Flash applications to retrieve youtube videos, downloading copyrighted material without permission is against YouTube's terms of services and a breach of The Digital Millennium Copyright Act. By using this program, you are solely responsible for any and all violations, copyright or not. We are not responsible for people who attempt to use this program in any way that breaks YouTube's terms of services.
 
 
 

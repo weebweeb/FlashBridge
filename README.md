@@ -20,7 +20,7 @@ The app has the current functionalities(more will be added as needed):
 We can search for Youtube videos by submitting a Video ID to `request`, under the term `?vidurl` as shown before:
 ![11K4Y5G](https://user-images.githubusercontent.com/20445961/109383596-71e24500-78b5-11eb-985e-30bc1316704d.png)
 
-Right now, these videos are saved to the local device, in the main folder. This will be changed.
+Right now, these videos are saved to the local device, in the folder this program resides in. This will be changed.
 
 
 
@@ -42,7 +42,7 @@ Right now, these videos are saved to the local device, in the main folder. This 
 
 
 # Disclaimer
-This program is for personal use only. Although downloading the video files is the only known way for Flash applications to retrieve youtube videos, downloading copyrighted material without permission is against YouTube's terms of services. By using this program, you are solely responsible for any copyright violations. We are not responsible for people who attempt to use this program in any way that breaks YouTube's terms of services.
+This program is for personal and educational purposes only. Although downloading the video files is the only known way for Flash applications to retrieve youtube videos, downloading copyrighted material without permission is against YouTube's terms of services. By using this program, you are solely responsible for any copyright violations. We are not responsible for people who attempt to use this program in any way that breaks YouTube's terms of services.
 
 
 

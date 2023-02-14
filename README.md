@@ -47,7 +47,7 @@ This program is for personal and educational purposes only. Although downloading
 
 
 
-# Dependancies
+# Dependencies
 <p>Node.js</p>
 <p>Express</p>
 <p>Pug</p>

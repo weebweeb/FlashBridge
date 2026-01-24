@@ -2,7 +2,7 @@
 FlashBridge is a compatibility tool for old Flash applications. Currently in testing.
 
 # Abstract
-Adobe Flash player was discontinued in 2020. However, some Flash sites and games continue to operate and thrive. These Flash elements however, are disconnected from the rest of the world. Popular sites like Youtube and Facebook have long since moved to HTML5, and so have their API references. This tool is a middleman for those old Flash elements- to give them information they might otherwise need. Currently a work in progress.
+Adobe Flash player was discontinued in 2020. However, some Flash sites and games continue to operate and thrive. These Flash elements however, are disconnected from the rest of the world. Popular sites like Youtube and Facebook have long since moved on, and so have their API references. This tool is a middleman for those old Flash elements- to give them information they might otherwise need. Currently a work in progress.
 
 
 # How to use
